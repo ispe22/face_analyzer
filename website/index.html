@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Predictor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Age Predictor</h1>
+        <p>Upload a photo of a face to predict its age.</p>
+        
+        <div class="uploader">
+            <input type="file" id="image-input" accept="image/*">
+            <label for="image-input">Choose an Image</label>
+        </div>
+
+        <div class="example-section">
+            <p>Or try this example:</p>
+            <img src="example_face.jpeg" id="example-image" alt="Example Face" title="Click to use this image">
+        </div>
+
+        <div class="image-preview" id="image-preview">
+            <img src="" alt="Image Preview" class="image-preview-image" id="preview-image">
+            <span class="image-preview-text">Image Preview</span>
+        </div>
+
+        <button id="predict-button">Predict Age</button>
+
+        <div class="result" id="result-container">
+            <h2 id="result-text"></h2>
+        </div>
+
+        <p class="privacy-notice">
+            <strong>Privacy Notice:</strong> Images you upload are sent to a Hugging Face secure server for prediction and are not stored.
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+fastai==2.7.12
+fasttransform
+numpy<2
+timm
+cloudpickle
+gradio
