@@ -39,3 +39,7 @@ A computer vision project that analyzes facial images to predict age and identif
 *   **Task:** Regression (Age estimation).
 *   **Dataset:** UTKFace (filtered to ~10,000 images for a roughly balanced dataset).
 *   **Error (MAE):** **± 6.60 years** (Performance is based on the validation set, not a separate test set).
+
+## Screenshot
+
+<img width="523" height="945" alt="image" src="https://github.com/user-attachments/assets/0e9d740c-5b5e-4ef8-ac43-210dacdb5bad" />
