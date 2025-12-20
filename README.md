@@ -2,13 +2,13 @@
 
 A computer vision project that analyzes facial images to predict age and identify celebrity lookalikes, featuring a unified web interface and two fine-tuned ResNet models.
 
-**Live Demo:** [https://age-predictor-pyuj.onrender.com/](https://age-predictor-pyuj.onrender.com/)
+**Live Demo:** [https://face-analyzer-render.onrender.com/](https://face-analyzer-render.onrender.com/)
 
 *Note: The Hugging Face Spaces APIs may take a moment to load and provide predictions.*
 
 **Hugging Face Spaces:**
 *   [Age Predictor API](https://huggingface.co/spaces/ispe/age_predictor)
-*   [Celebrity Matcher API](https://huggingface.co/spaces/ispe/face_analyzer)
+*   [Celebrity Matcher API](https://huggingface.co/spaces/ispe/face_similarity)
 
 ## Features
 
